@@ -7,7 +7,7 @@ spec:
 
   source: 
 
-    repoURL: 
+    repoURL: https://github.com/pakkurthichandu-create/manifest-for-kubenetes.git
     targetRevision: HEAD
     path: dev
 
