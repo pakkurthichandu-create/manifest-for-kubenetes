@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: chandu4440/jenkins-practice:v27
+          image: chandu4440/jenkins-practice:v28
           ports:
             - containerPort: 8080
           
