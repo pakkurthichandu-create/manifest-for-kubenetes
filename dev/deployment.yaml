@@ -17,4 +17,9 @@ spec:
           image: chandu4440/jenkins-practice:v30
           ports:
             - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 20
           
