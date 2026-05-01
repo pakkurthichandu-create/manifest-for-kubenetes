@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: chandu4440/jenkins-practice:v64
+          image: chandu4440/jenkins-practice:v65
           ports:
             - containerPort: 8080
           readinessProbe:
